@@ -4,7 +4,7 @@ use crate::context::Command;
 
 pub const SIMPLE_COMMANDS: &[SimpleCommand] = &[SimpleCommand {
 	command: "when",
-	title: "When does the A22X release?",
+	title: "When will the A22X release?",
 	response: "We have no release date or development deadlines set for the A22X at the moment as our team consists \
 	           purely of volunteers dedicating their free time to this project.",
 }];

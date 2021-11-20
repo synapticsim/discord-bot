@@ -51,9 +51,11 @@ impl EventHandler for LockedBotContext {
 			return;
 		}
 
-		if let Some(command) = message.content.trim_start_matches('.').split_whitespace().next() {
-			if let Some(command) = self.read().await.commands.get(command) {
-				command.execute(&ctx, &message).await;
+		if message.content.starts_with('.') {
+			if let Some(command) = message.content[1..].split_whitespace().next() {
+				if let Some(command) = self.read().await.commands.get(command) {
+					command.execute(&ctx, &message).await;
+				}
 			}
 		}
 	}

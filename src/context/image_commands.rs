@@ -2,10 +2,16 @@ use serenity::{async_trait, model::prelude::*, prelude::*, utils::Color};
 
 use crate::context::Command;
 
-pub const IMAGE_COMMANDS: &[ImageCommand] = &[ImageCommand {
-	command: "decals",
-	image: "https://media.discordapp.net/attachments/649343789747535887/911498321762332693/unknown.png",
-}];
+pub const IMAGE_COMMANDS: &[ImageCommand] = &[
+	ImageCommand {
+		command: "decals",
+		image: "https://media.discordapp.net/attachments/649343789747535887/911498321762332693/unknown.png",
+	},
+	ImageCommand {
+		command: "monke",
+		image: "https://media.discordapp.net/attachments/798566992138207282/893910995884445746/unknown.png?width=578&height=524",
+	},
+];
 
 pub struct ImageCommand {
 	pub command: &'static str,
