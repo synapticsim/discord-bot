@@ -9,7 +9,15 @@ pub const IMAGE_COMMANDS: &[ImageCommand] = &[
 	},
 	ImageCommand {
 		command: "monke",
-		image: "https://media.discordapp.net/attachments/798566992138207282/893910995884445746/unknown.png?width=578&height=524",
+		image: "https://media.discordapp.net/attachments/798566992138207282/893910995884445746/unknown.png",
+	},
+	ImageCommand {
+		command: "whoosh",
+		image: "https://media.discordapp.net/attachments/649343789747535887/911738718262538311/unknown.png",
+	},
+	ImageCommand {
+		command: "whened",
+		image: "https://media.discordapp.net/attachments/648923102260232203/911719184822587433/meme.png",
 	},
 ];
 
