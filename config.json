@@ -1,0 +1,40 @@
+{
+  "commands": [
+    {
+      "name": "when",
+      "ty": "simple",
+      "args": {
+        "title": "When will the A22X release?",
+        "response": "We have no release date or development deadlines set for the A22X at the moment as our team consists purely of volunteers dedicating their free time to this project."
+      }
+    },
+    {
+      "name": "decals",
+      "ty": "image",
+      "args": {
+        "url": "https://media.discordapp.net/attachments/649343789747535887/911498321762332693/unknown.png"
+      }
+    },
+    {
+      "name": "monke",
+      "ty": "image",
+      "args": {
+        "url": "https://media.discordapp.net/attachments/798566992138207282/893910995884445746/unknown.png"
+      }
+    },
+    {
+      "name": "whoosh",
+      "ty": "image",
+      "args": {
+        "url": "https://media.discordapp.net/attachments/649343789747535887/911738718262538311/unknown.png"
+      }
+    },
+    {
+      "name": "whened",
+      "ty": "image",
+      "args": {
+        "url": "https://media.discordapp.net/attachments/648923102260232203/911719184822587433/meme.png"
+      }
+    }
+  ]
+}
